@@ -1,7 +1,7 @@
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=gbk">
-    <title>����С��ʦ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Cờ tướng Việt Nam</title>
     <script type="text/javascript" src="book.js"></script>
     <script type="text/javascript" src="position.js"></script>
     <script type="text/javascript" src="search.js"></script>
@@ -9,7 +9,7 @@
     <script type="text/javascript" src="cchess.js"></script>
     <style type="text/css"><!--
 body {
-  background: url(../background.gif);
+  background: url(./background.jpg);
 }
 
 span.td {
@@ -59,41 +59,55 @@ label {
 "https://translate.google.com/translate_a/element.js?
 cb=googleTranslateElementInit">
  </script>
-    <div style="text-align:center;font-size:28px;font-family:sans-serif">Text1</div>
+    <div style="height:50px"></div>
+    <div style="text-align:center;font-size:34px;font-family:sans-serif;color: rgb(255, 136, 0);">CỜ TƯỚNG VIỆT NAM</div>
+    <div></div>
+    <div style="text-align:center;font-size:18px;font-family:sans-serif;color: rgb(195, 255, 0);">Lưu ý: chọn quân cờ rồi bấm vào vị trí cần đến</div>
     <div style="height:16px"></div>
     <div style="text-align:center;white-space:nowrap">
       <span class="td" style="margin-right:10px">
         <div id="container"></div>
       </span><span class="td" style="vertical-align:top;width:120px;"><div style="text-align:left">
-        <div class="label">Text2</div>
+        <div class="label">Chế độ chơi</div>
         <div><select id="selMoveMode" size="3">
-          <option selected value="0">Text3</option>
-          <option value="1">Text4</option>
-          <option value="2">Text5</option>
+          <option selected value="0">Người chơi trước</option>
+          <option value="1">Máy trước</option>
+          <option value="2">2 người</option>
         </select></div>
-        <div class="label">Text6</div>
+        <div style="height:16px"></div>
+        <div class="label">Lựa chọn cho người đi trước</div>
         <div><select id="selHandicap" style="padding:0px">
-          <option selected value="0">Text7</option>
-          <option value="1">Text8</option>
-          <option value="2">Text9</option>
-          <option value="3">Text10</option>
+          <option selected value="0">Bình Thường</option>
+          <option value="1">Chấp ngựa phải</option>
+          <option value="2">Chấp 2 ngựa</option>
+          <option value="3">Chấp chốt, sĩ, tượng</option>
         </select></div>
-        <div style="padding-top:2px"><input type="button" class="button" value="Text19" onclick="restart_click()"></div>
-        <div style="padding-top:2px"><input type="button" class="button" value="Text20" onclick="retract_click()"></div>
+        <div style="height:16px"></div>
+        <div style="padding-top:2px ">
+          <button style="background:#3630a3;color:white;"
+          onclick="restart_click()"
+        >Bắt đầu màn mới</button>
+        </div>
+        <div style="height:10px"></div>
+        <div style="padding-top:2px ">
+          <button style="background:#8b88c5;color:white;"
+          onclick="retract_click()"
+        >Hoàn tác</button>
+        </div>
         <div style="height:12px"></div>
-        <div class="label">Text11</div>
+        <div class="label">Độ khó</div>
         <div><select id="selLevel" size="3" onchange="level_change()">
-          <option selected value="0">Text12</option>
-          <option value="1">Text13</option>
-          <option value="2">Text14</option>
+          <option selected value="0">Nghiệp dư</option>
+          <option value="1">Thành thạo</option>
+          <option value="2">Cao thủ</option>
         </select></div>
         <div style="height:12px"></div>
-        <div><input type="checkbox" class="checkbox" id="chkAnimated" checked onclick="board.animated = checked"><label for="chkAnimated">Text15</label></input></div>
-        <div><input type="checkbox" class="checkbox" checked onclick="board.setSound(checked)"><label for="chkSound">Text16</label></input></div>
+        <div><input type="checkbox" class="checkbox" id="chkAnimated" checked onclick="board.animated = checked"><label for="chkAnimated">Bật hiệu ứng</label></input></div>
+        <div><input type="checkbox" class="checkbox" checked onclick="board.setSound(checked)"><label for="chkSound">Bật âm thanh</label></input></div>
         <div style="height:60px"></div>
-        <div class="label">Text17</div>
+        <div class="label">Lịch sử nước đi</div>
         <div><select id="selMoveList" size="10" style="font-family:sans-serif" onchange="moveList_change()">
-          <option selected value="0">=== Text 18 ===</option>
+          <option selected value="0">= Khai cuộc =</option>
         </select></div>
       </div></span>
     </div>
