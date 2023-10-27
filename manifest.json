@@ -24,12 +24,20 @@
       "type": "image/png"
     }
   ],
-  "icons": [],
+  "icons": [
+    {
+        "src": "AppImage/ios/512.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any"
+    }
+  ],
   "shortcuts": [
     {
       "name": "Home",
       "url": "https://davidtran1010.github.io/cotuong.github.io",
       "description": "Home"
     }
-  ]
+  ],
+  "iarc_rating_id": "0902ba16-7474-11ee-b962-0242ac120002"
 }
