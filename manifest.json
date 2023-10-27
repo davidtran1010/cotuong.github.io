@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "/cotuong.github.io",
   "short_name": "Co tuong VN",
-  "start_url": "/index.htm",
+  "start_url": "/cotuong.github.io/index.htm",
   "theme_color": "#ffffff",
   "categories": [
     "games"
