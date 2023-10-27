@@ -7,7 +7,7 @@
   "orientation": "any",
   "scope": "/",
   "short_name": "Co tuong VN",
-  "start_url": "/",
+  "start_url": "/index.htm",
   "theme_color": "#ffffff",
   "categories": [
     "games"
