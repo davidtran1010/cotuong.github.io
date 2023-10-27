@@ -26,10 +26,10 @@
   ],
   "icons": [
     {
-        "src": "AppImages/ios/512.png",
-        "sizes": "512x512",
-        "type": "image/png",
-        "purpose": "any"
+      "src": "AppImages/ios/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ],
   "shortcuts": [
@@ -39,5 +39,10 @@
       "description": "Home"
     }
   ],
-  "iarc_rating_id": "0902ba16-7474-11ee-b962-0242ac120002"
+  "iarc_rating_id": "0902ba16-7474-11ee-b962-0242ac120002",
+  "display_override": [
+    "fullscreen",
+    "standalone",
+    "window-controls-overlay"
+  ]
 }
