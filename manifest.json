@@ -5,7 +5,7 @@
   "display": "standalone",
   "name": "Co tuong VN - Xiangqui",
   "orientation": "any",
-  "scope": "/",
+  "scope": "/cotuong.github.io",
   "short_name": "Co tuong VN",
   "start_url": "/index.htm",
   "theme_color": "#ffffff",
